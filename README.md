@@ -13,7 +13,7 @@
 - main.py
 - general_prediction.py
 - requirements.txt
-- README_206601981_Aviram_Siginur_209138403_Amit_Rendlich.txt
+- README.md
 
 
 ### DATA FILES AND SOURCES
