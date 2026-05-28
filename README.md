@@ -15,9 +15,9 @@ Files:
 - requirements.txt
 - README_206601981_Aviram_Siginur_209138403_Amit_Rendlich.txt
 
-======================================================================
+
 DATA FILES AND SOURCES
-======================================================================
+
 
 1. PAR-CLIP binding sites in a BED file
 File:
@@ -83,9 +83,9 @@ We downloaded all files named chr*.fa.gz (chr1-22, X, Y), excluding:
 
 After extraction, the chromosome FASTA files are merged into a single file named hg18.fa by running the script create_fixed_windows_and_fasta.py.
 
-======================================================================
+
 CODE FILES
-======================================================================
+
 
 1. create_3utr_bed.py
 
@@ -206,9 +206,9 @@ In the main section, we put 4 different examples of sequences that you can run i
 3. UAAUACAGGAACUAUUUUACUCGGAACAAUACGGUACAUUACGGAACGUA
 4. GGAUACAAUACCUUUACUCAUACUAAGGAACAACUUGGAUUACGAUACAA
 
-======================================================================
+
 PYTHON ENVIRONMENT AND DEPENDENCIES
-======================================================================
+
 
 This project was developed inside a Python virtual environment.
 
@@ -223,9 +223,9 @@ pip install -r requirements.txt
 
 This command will install all the packages required to run the project.
 
-======================================================================
+
 HOW TO RUN THE PROJECT
-======================================================================
+
 
 Run the scripts in the following order:
 
@@ -234,9 +234,9 @@ Run the scripts in the following order:
 3. main.py
 4. general_prediction.py
 
-======================================================================
+
 ADDITIONAL NOTES
-======================================================================
+
 
 - Binding sites located on unplaced or random chromosomes were excluded from the analysis.
 - The sequence order in the FASTA file reflects binding strength ranking from strongest to weakest, as provided by the input data.
