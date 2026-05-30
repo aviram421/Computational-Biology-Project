@@ -67,7 +67,7 @@ https://genome.ucsc.edu/cgi-bin/hgTables?hgsid=3787459551_wJpAUP3jHgf5HSf4p1GAIM
 File (Expected after running the create_fixed_windows_and_fasta.py file):
 Input_for_fixed_windows/hg18.fa
 
--- Note: You won't see this file on Moodle because it weighs more than 500 MB. To get this file, please download the 4 zipped folders named "chr_1to6", "chr_7to13", "chr_14to20", and "chr_21to22_xy" from our Moodle submission and extract them. Then move all files (24 chr files in total) from the 4 extracted folders to the "Separate_chromosome_files" folder within the main project directory. Then, after running the create_fixed_windows_and_fasta.py file, you'll get the "hg18.fa" file automatically.
+-- Note: To obtain this file, please download the 4 zipped folders named "chr_1to6", "chr_7to13", "chr_14to20", and "chr_21to22_xy" from this repo and extract them. Then move all files (24 chr files in total) from the 4 extracted folders to the "Separate_chromosome_files" folder within the repo. Then, after running the create_fixed_windows_and_fasta.py file, you'll obtain the "hg18.fa" file automatically.
 
 Description:
 This file contains the combined FASTA sequences of the hg18 human genome used to extract 50nt windows.
