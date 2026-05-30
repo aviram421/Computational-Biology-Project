@@ -20,6 +20,7 @@
 
 
 1. **PAR-CLIP binding sites in a BED file**
+   
 File:
 Input_for_3UTR_bed/GSM1144507_RC3H1_sites.bed
 
@@ -41,6 +42,7 @@ The compressed BED file was downloaded from GEO and then extracted using Archive
 --------------------------------------------------
 
 2. **3'UTR annotations in a BED file**
+   
 File:
 Input_for_3UTR_bed/hg18_3UTR annotations.bed
 
@@ -64,6 +66,7 @@ https://genome.ucsc.edu/cgi-bin/hgTables?hgsid=3787459551_wJpAUP3jHgf5HSf4p1GAIM
 --------------------------------------------------
 
 3. **hg18 genome FASTA file**
+   
 File (Expected after running the create_fixed_windows_and_fasta.py file):
 Input_for_fixed_windows/hg18.fa
 
