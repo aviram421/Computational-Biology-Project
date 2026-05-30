@@ -217,7 +217,7 @@ All required Python packages and their exact versions are listed in the file:
 requirements.txt
 
 To install all dependencies, run the following command from the project
-directory (the directory containing the requirements.txt file):
+directory:
 
 pip install -r requirements.txt
 
