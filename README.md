@@ -19,7 +19,7 @@
 ### DATA FILES AND SOURCES
 
 
-1. ** PAR-CLIP binding sites in a BED file
+1. **PAR-CLIP binding sites in a BED file**
 File:
 Input_for_3UTR_bed/GSM1144507_RC3H1_sites.bed
 
@@ -40,7 +40,7 @@ The compressed BED file was downloaded from GEO and then extracted using Archive
 
 --------------------------------------------------
 
-2. ** 3'UTR annotations in a BED file
+2. **3'UTR annotations in a BED file**
 File:
 Input_for_3UTR_bed/hg18_3UTR annotations.bed
 
@@ -63,7 +63,7 @@ https://genome.ucsc.edu/cgi-bin/hgTables?hgsid=3787459551_wJpAUP3jHgf5HSf4p1GAIM
 
 --------------------------------------------------
 
-3. ** hg18 genome FASTA file
+3. **hg18 genome FASTA file**
 File (Expected after running the create_fixed_windows_and_fasta.py file):
 Input_for_fixed_windows/hg18.fa
 
@@ -87,7 +87,7 @@ After extraction, the chromosome FASTA files are merged into a single file named
 ### CODE FILES
 
 
-1. ** create_3utr_bed.py
+1. **create_3utr_bed.py**
 
 Relevant project part:
 Preprocessing step for restricting the PAR-CLIP analysis only to binding sites located in 3'UTR.
@@ -111,7 +111,7 @@ Duplicate entries are removed to ensure each binding site is counted once, and t
 
 --------------------------------------------------
 
-2. ** create_fixed_windows_and_fasta.py
+2. **create_fixed_windows_and_fasta.py**
 
 Relevant project part:
 Preprocessing step for generating 50nt sequence windows around binding-site summits and converting them to FASTA format.
@@ -140,7 +140,7 @@ Finally, all sequences are written to a FASTA file in the same order as the BED 
 
 --------------------------------------------------
 
-3. ** main.py
+3. **main.py**
 
 Relevant project part:
 Main data analysis of enriched motifs, threshold evaluation, background comparison, significance filtering, Bayes-based probability estimation and normalizing the results to 0.2 threshold scale.
@@ -179,7 +179,7 @@ Finally, the relevant motifs from thresholds 0.1 and 0.2 are combined and normal
 
 --------------------------------------------------
 
-4. ** general_prediction.py
+4. **general_prediction.py**
 
 Relevant project part:
 Final prediction tool for testing a new 50nt sequence against the relevant motifs found in the main analysis.
